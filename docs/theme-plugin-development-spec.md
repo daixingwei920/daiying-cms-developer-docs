@@ -1,9 +1,28 @@
+# Legacy / Superseded Theme And Plugin Development Spec
+
+Last updated: 2026-09-27
+
+Status: Legacy / Superseded.
+
+This historical combined spec is no longer the current developer entrypoint.
+
+Current developer documentation:
+
+- [Daiying Plugin SDK V1 — Core 1.2.70+](https://github.com/daixingwei920/daiying-cms/blob/main/docs/plugin-sdk/README.md)
+- [Theme Development Specification V1 Proposal — Core 1.2.70+](https://github.com/daixingwei920/daiying-cms/blob/main/DAIYING_THEME_DEVELOPMENT_SPEC_V1_PROPOSAL.md)
+- [Theme API V1](https://github.com/daixingwei920/daiying-cms/blob/main/THEME_API_V1.md)
+- [Daiying Theme Framework](https://github.com/daixingwei920/daiying-cms/tree/main/theme-framework)
+
+The older 2026-08-31 content below is retained only for historical context.
+
+---
+
 # Daiying CMS V1.2 主题与插件开发规范
 
 版本：2026-08-31  
 适用版本：Daiying CMS V1.2  
 适用对象：第三方主题作者、插件作者、官方扩展开发者  
-状态：当前 CMSD 扩展开发与审核基准
+状态：历史记录，已被上方当前开发者文档入口取代
 
 ## 1. 基本原则
 

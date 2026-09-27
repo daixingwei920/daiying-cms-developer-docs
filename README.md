@@ -1,24 +1,50 @@
-# Daiying CMS Developer Docs
+# Daiying Developer Documentation
 
-适用版本：Daiying CMS V1.2  
-最后更新：2026-08-31
+Last updated: 2026-09-27
 
-这里公开维护 Daiying CMS 主题与插件开发规范，供第三方开发者在线查看和下载。
+This repository is the public website/documentation display layer for Daiying developers.
 
-## 文档
+The source of truth is the Core repository:
 
-- [主题与插件总规范](docs/theme-plugin-development-spec.md)
-- [主题开发规范](docs/theme-development-spec.md)
-- [插件开发规范](docs/plugin-development-spec.md)
+<https://github.com/daixingwei920/daiying-cms>
 
-## 发布流程
+Do not treat copied website pages as independent API contracts. When Core documentation changes, this repository should link to the Core source of truth instead of maintaining a long-lived fork.
 
-1. 开发扩展。
-2. 本地测试。
-3. 生成符合 Market 标准的扩展包。
-4. 提交 Daiying 官方审核。
-5. AI / 自动安全检查。
-6. 官方人工审核。
-7. 审核通过。
-8. 发布。
-9. 商业扩展可按政策购买商业授权码。
+## Plugin Development
+
+Current:
+
+- [Daiying Plugin SDK V1 — Core 1.2.70+](https://github.com/daixingwei920/daiying-cms/blob/main/docs/plugin-sdk/README.md)
+
+Plugin SDK V1 documentation set:
+
+- [Development Specification](https://github.com/daixingwei920/daiying-cms/blob/main/DAIYING_PLUGIN_DEVELOPMENT_SPEC_V1.md)
+- [API Reference](https://github.com/daixingwei920/daiying-cms/blob/main/DAIYING_PLUGIN_API_REFERENCE_V1.md)
+- [Event Registry](https://github.com/daixingwei920/daiying-cms/blob/main/DAIYING_EVENT_REGISTRY_V1.md)
+- [Capability Registry](https://github.com/daixingwei920/daiying-cms/blob/main/DAIYING_CAPABILITY_REGISTRY_V1.md)
+- [Official Plugin Skeleton](https://github.com/daixingwei920/daiying-cms/tree/main/DAIYING_OFFICIAL_PLUGIN_SKELETON_V1)
+
+Legacy:
+
+- [Legacy / Superseded Plugin Development Spec](docs/plugin-development-spec.md)
+
+## Theme Development
+
+Current review document:
+
+- [Theme Development Specification V1 Proposal — Core 1.2.70+](https://github.com/daixingwei920/daiying-cms/blob/main/DAIYING_THEME_DEVELOPMENT_SPEC_V1_PROPOSAL.md)
+
+Current Theme API references:
+
+- [Theme API V1](https://github.com/daixingwei920/daiying-cms/blob/main/THEME_API_V1.md)
+- [Themes Guide](https://github.com/daixingwei920/daiying-cms/blob/main/docs/themes.md)
+- [Daiying Theme Framework](https://github.com/daixingwei920/daiying-cms/tree/main/theme-framework)
+
+Legacy:
+
+- [Legacy / Superseded Theme Development Spec](docs/theme-development-spec.md)
+- [Legacy / Superseded Theme And Plugin Combined Spec](docs/theme-plugin-development-spec.md)
+
+## Publication Rule
+
+`daiyingcms.com` is a publication/display layer. The Core repository documentation is authoritative for current API contracts.
